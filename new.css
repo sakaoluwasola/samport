@@ -1,0 +1,548 @@
+:root{
+    --primary-button: #D9B70D;
+    --white: #fff;
+    --nav: #253c59;
+    --green-border :#bf8d30;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* carousel  */
+.owl-carousel-item{
+    background-image: url(/image/Team2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-position: center;  */
+}
+
+.position h2{
+    top: 7rem;
+    left: 3rem;
+    letter-spacing: 3;
+    font-weight: bold;
+    font-size: 52px;
+    color: var(--white);
+    text-shadow: 4px 2px 0px rgba(0,0,0,0.2);  
+} 
+
+.position h2 span{
+    color: var(--primary-button);
+} 
+
+.position p{
+    color: var(--white) !important;
+} 
+
+/* search  */
+.container-flui {
+    background: var(--nav);
+}
+
+
+/* navbar */
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    color: var(--white) !important;
+}
+
+.navbar{
+    background-color: var(--nav);
+} 
+
+ .fas{
+    font-size: 1.3rem;
+ }  
+
+.nav-link {
+    color: var(--white);
+}  
+
+.nav-link:hover {
+    color: #D9B70D;
+    transition: 0.3s;
+}   
+
+.nav-item {
+    color: var(--white);
+    font-weight: 500;
+    padding-left: 35px;
+}   
+
+.btn0 {
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: var(--primary-button);
+}
+
+.btn0 a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.btn0:hover{
+    background: var(--green-border);
+    transition: all 0.4s;
+}    
+
+.btn1 {
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    color: var(--primary-button);
+    outline: none;
+    border: 2px solid var(--primary-button); 
+}
+
+.btn1 a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.btn1:hover{
+    background-color:  var(--green-border);
+    transition: all 0.4s;
+    color: var(--white);
+    border: none;
+    outline: none;
+}    
+
+/* """"""""""""""" main section """"""""""""" */
+.main{
+    background: url(./image/career\ 2.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 45vh;
+}   
+
+.main h1{
+    font-weight: 800;
+    font-size: 4rem;
+    color: var(--white);
+    text-shadow: 3px 2px 0px rgba(0, 0, 0, 0.5);
+}  
+
+.main h1 span{
+    color: var(--primary-button);
+}  
+
+.main input{
+    height: 71px;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}   
+
+.btn2{
+  height: 71px; 
+  width: 25%;
+  background-color: var(--primary-button); 
+  color: var(--white);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin-left: -5px;
+}   
+
+.btn2:hover{
+    background: var(--green-border);
+    transition: all 0.4s;
+}   
+
+.red{
+    color: var(--green-border);
+}   
+
+.card-body img{
+    height: 80px;
+    width: 80px;
+}   
+
+.ceta h1{
+    font-size: 3.5rem;
+    color: var(--nav);
+}  
+
+.ceta .card:hover{
+    color: var(--primary-button);
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: -2px 2px 22px -11px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 2px 22px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 2px 22px -11px rgba(0, 0, 0, 0.75);
+}   
+
+ 
+.btn3{
+    height: 70px; 
+    width: 70%;
+    border: 1px solid var(--primary-button) !important;
+    background: transparent;
+    color: rgb(7, 7, 78);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+}  
+
+.btn3:hover{
+    background-color: var(--primary-button);
+    color: var(--green-border);
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+}   
+
+ /* RESUME SECTION CSS */
+.resume{
+    background:linear-gradient(rgba(4,11, 75, 0.719), rgba(4, 26, 100, 0.73)), url(./image/office\ 4.jpg) no-repeat;
+    background-size: cover;
+    height: 96vh;
+    width: 100%;
+}   
+
+.resume h1{
+    font-size: 3.8rem;
+}   
+
+/* job section */
+.job h1{
+    font-size: 3.5rem;
+    color: rgb(7, 7, 78);
+}   
+
+.btn4{
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: var(--primary-button);
+    color: var(--white);
+    border-radius: 4px;
+    transition: all 0.4s;
+}   
+
+.btn4:hover{
+    background-color: var(--green-border);
+    color: var(--white);
+    transition: all 0.4s;
+    border: none;
+    outline: none;
+}  
+
+.job img{
+    border-radius: 8px;
+} 
+
+/* apply section  */
+.apply{
+    background: url(./image/Back.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+}    
+
+.apply .card{
+    background-color: rgba(4, 26, 100, 0.801);
+    color: var(--white);
+}   
+
+.cir1 img{
+    border-radius: 50%; 
+}   
+
+.cir1{
+    height: 100px;
+    width: 100px; 
+    border-radius: 50%;
+    display: inline-block;
+}    
+
+/* contact section slider */
+.slider {
+    background: url(/image/Back\ 2.jpg);
+    width: 100%;
+    height: 100%;
+} 
+
+.avatar{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}   
+
+.perac{
+    font-size: 1.6rem;
+    font-weight: 300;
+}   
+
+.btn5{
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: var(--primary-button);
+    transition: all 0.4s;
+    cursor: pointer;
+    color: var(--white);
+}   
+
+.btn5:hover{
+    background: var(--green-border);
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+} 
+
+/* contact form  */
+.form-area{
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+
+.row.single-form{
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+    background: var(--white);
+}
+
+.left{
+    background: var(--nav);
+    padding: 180px 93px;
+}
+
+.left h2{
+    font-family: poppins;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.left h2 span{
+    font-weight: 100;
+}
+
+.left h2 span{
+    color: #D9B70D;
+}
+
+.right{
+    padding: 60px 80px;
+    position: relative;
+} 
+
+.right i{
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: var(--primary-button);
+}
+
+.form-control{
+    border: 2px solid rgb(200, 199, 199);
+}
+
+.right button{
+    border: none;
+    border-radius: 4px;
+    background: var(--primary-button);
+    width: 180px;
+    color: var(--white);
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.right button:hover{
+    background: var(--green-border);
+}
+
+/* footer section */
+
+.footer{
+    background: var(--nav);
+    color: var(--green-border);
+}    
+
+.footer p{
+    margin: 0;
+    color: var(--white);
+}  
+
+.link{
+    color: #6b6b72;
+    transition: all 0.4s;
+}   
+
+.link:hover{
+    color: var(--primary-button);
+    padding-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}   
+
+.footer input{
+    height: 45px;
+    width: 70%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-left: 10px;
+}  
+
+.footer button{
+    height: 45px;
+    width: 20%;
+    border: none;
+    outline: none;
+    margin-left: -6px;
+    padding: 3px;
+    border-top: 1px solid var(--green-border);
+    background: var(--primary-button);
+    color: white;
+    margin-top: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; 
+} 
+
+/* sign up first stage */
+.employer .card-title{
+    background: var(--white);
+    font-weight: 700;   
+}
+
+.employer{
+    width: 100%;
+    justify-items: center;
+}
+
+#basic-addon1{
+    background: #bf8d30;
+    color: var(--white);
+}
+.btn7{
+    background: var(--primary-button);
+    color: var(--white);
+}
+
+.seeker{
+   background: var(--primary-button);
+   color: var(--white); 
+   border: none;
+   height: 45px;
+   padding: 8px;
+   border-radius: 4px;
+   width: 30%;
+}
+
+.employer .btn{
+    background: var(--primary-button);
+    color: var(--white);
+}
+
+.employer-text{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.text-employer{
+    text-align: center;
+}
+.employer-form h1{
+    color: #3b5b82;
+}
+.next-btn{
+    background-color: var(--primary-button);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    float: end;     
+}
+
+.form-check a{
+    text-decoration: none;
+}
+
+#textarea{
+    width: 100%;
+}
+
+/* singn up Ends  */
+
+
+
+@media (max-width: 576px) {
+    .main h1 {
+        font-size: 2.5rem;
+    }
+    .main {
+        height: 1rem;
+    }
+
+    .ceta h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .resume h1{
+        font-size: 2.5rem;
+        padding: 0.5rem;
+    }
+
+    .resume {
+        height: 32rem;
+    }
+
+    .job h1{
+        font-size:2.5rem;  
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .right i{
+        top: -52px;
+        transform: rotate(90deg);
+        left: 50%;
+    }   
+}
+
+@media (max-width: 767px) {
+    .left{
+        padding: 90px;
+        text-align: center;
+    }
+    .left h2{
+        font-size: 25px;
+    }
+    .right{
+        padding: 25px;
+    }
+    .right i{
+        top: -25px;
+        transform: rotate(90deg);
+        left: 45%;
+    }
+    .right button{
+        width: 150px;
+        padding: 12px 0;
+    }
+}
+
+   
+
+ 
